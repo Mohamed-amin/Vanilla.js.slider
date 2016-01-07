@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Javascript Image Slider</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="main.js"></script>
+<script>
+  window.onload = function() {
+    var slider = new Slider('#slider');
+    slider.init();
+  }
+</script>
+</head>
+
+<body>
+<div class="slider" id="slider">
+    <ul>
+        <li><img src="images/1.jpg"></li>
+        <li><img src="images/2.jpg"></li>
+        <li><img src="images/3.jpg"></li>
+        <li><img src="images/4.jpg"></li>
+        <li><img src="images/5.jpg"></li>
+        <li><img src="images/6.jpg"></li>
+    </ul>
+    <a href="#" class="ctrl prev"> < </a>
+    <a href="#" class="ctrl next"> > </a>
+    <div class="indicators"></div>
+</div>
+
+</body>
+
+</html>
